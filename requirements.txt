@@ -1,0 +1,10 @@
+# Core app; semantic embeddings are optional to keep the first install small.
+streamlit>=1.40,<2
+pypdf>=6.0,<7
+numpy==1.26.4; python_version < "3.10"
+numpy>=1.26,<3; python_version >= "3.10"
+pandas>=2.2,<2.3; python_version < "3.10"
+scikit-learn>=1.4,<1.7; python_version < "3.10"
+scikit-learn>=1.4,<2; python_version >= "3.10"
+openai>=1.66,<3
+python-dotenv>=1.0,<2

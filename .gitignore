@@ -1,0 +1,15 @@
+.venv/
+.venv-*/
+venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+.DS_Store
+.streamlit/secrets.toml
+uploads/
+private_docs/
+.cache/
+__MACOSX/
+._*
